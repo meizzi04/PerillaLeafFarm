@@ -1,3 +1,7 @@
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=TypeScript&logoColor=white"/>
-![header](https://capsule-render.vercel.app/api?type=wave&color=auto&height=300&section=header&text=capsule%20render&fontSize=90)
 # 2022-2 Embedded Final Project
+> ##### 팀장 : 김미령 / 팀원 : 백지원, 정재근
+> ##### 분반 : 01 / 팀번호 : 02
+> ##### 작성자 : 김미령
+## 아이디어 소개
+* 제목 : 안전한 깻잎 농장
+* 설명 : 깻잎 농사를 지을 때 비닐하우스를 치고 
