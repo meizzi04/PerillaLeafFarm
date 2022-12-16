@@ -33,7 +33,7 @@
     * 조도 센서와 LED를 사용한다.
     * 조도 센서를 통해 빛의 세기를 감지하여 낮인지 밤인지 구분한다.
     * 빛의 세기 감지 후 Bright면 LED를 끄고, Dark면 LED를 킨다.
-  * Button을 통한 경계 모드 ON/OFF 기능
+  * 경계 모드 ON/OFF 기능
     * Button과 LED를 사용한다.
     * Button을 누르면 LED가 켜지면서 경계 모드를 활성화한다.
     * 다시 Button을 누르면 LED가 꺼지면서 경계 모드를 비활성화한다.  
@@ -57,15 +57,24 @@
 ## 5. 개발 시 문제점 및 해결방안
 * 문제점1 : 스마트폰으로 알림을 전송할 때, 시리얼 통신에 보낼 데이터가 있고 일정 거리 이하인 경우 전송하도록 조건을 준 결과, 작동하지 않았다.
   * 해결 방안 : 시리얼 통신에 보낼 데이터의 유무는 검사하지 않고 일정 거리 이하면 바로 스마트폰으로 알림을 전송하도록 하였다.
-* 문제점2 : 경계 모드가 한번 켜지고 초음파 센서가 작동하고 나면 다시 경계모드의 상태를 변화시킬 수 없다.
-  * 해결 NO
 
 ## 6. 기능별 데모 영상
 * 빛의 세기 감지 후 LED ON/OFF 기능
-  * 
-* Button을 통한 경계 모드 ON/OFF 기능
+  <img src = "https://user-images.githubusercontent.com/86556226/208119395-f8c86ec0-8490-419d-b9c4-68147c5f0261.gif">
+* 경계 모드 ON/OFF 기능
+  <img src = "https://user-images.githubusercontent.com/86556226/208116919-e4bf7bb9-8107-4e50-ad34-e6ab90886da6.gif">
+* 누군가 일정 거리 안에 다가오는지 감지하는 기능    
+  <img src = "https://user-images.githubusercontent.com/86556226/208122607-25e537e0-0abf-4cf6-b097-6eac36b6b5bd.gif">
 * 일정 거리 안에 물체나 사람이 있으면 스마트폰 알림 전송 기능
+  <img src = "https://user-images.githubusercontent.com/86556226/208120891-1c355bf0-5d62-4732-ba20-402a528bff43.gif">
 
 ## 7. 개발 일정
+![image](https://user-images.githubusercontent.com/86556226/208130944-9cdcb982-bc4e-4168-a7be-0108ebfdc36a.png)
 
 ## 8. 업무 분장
+* 김미령
+  * 회로 설계, 시스템 개발, 발표자료 제작, 최종 보고서 작성
+* 백지원
+  * 회로 설계, 발표자료 제작 
+* 정재근
+  * 회로 설계, 제안발표, 최종발표
